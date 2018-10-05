@@ -6,7 +6,7 @@
 /*   By: rvan-der <rvan-der@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/10/21 15:24:11 by rvan-der          #+#    #+#             */
-/*   Updated: 2015/10/21 15:26:07 by rvan-der         ###   ########.fr       */
+/*   Updated: 2018/10/05 15:14:17 by rvan-der         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,13 @@
 void	ft_bzero(void *s, size_t n)
 {
 	size_t	i;
-	char	*tmp;
+	char	*str;
 
-	tmp = (char*)s;
+	str = (char*)s;
 	i = 0;
 	while (i < n)
 	{
-		tmp[i] = '\0';
+		str[i] = '\0';
 		i++;
 	}
 }

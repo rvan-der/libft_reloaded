@@ -6,7 +6,7 @@
 /*   By: rvan-der <rvan-der@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/03 18:55:07 by rvan-der          #+#    #+#             */
-/*   Updated: 2018/10/04 20:20:09 by rvan-der         ###   ########.fr       */
+/*   Updated: 2018/10/05 14:13:09 by rvan-der         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,8 @@ char				*ft_itoa(int n);
 intmax_t			ft_strtoimax(const char *restrict str, \
 									char **restrict endptr, int base);
 long				ft_strtol(const char *restrict str, \
+								char **restrict endptr, int base);
+long long			ft_strtoll(const char *restrict str, \
 								char **restrict endptr, int base);
 int					ft_tolower(int c);
 int					ft_toupper(int c);

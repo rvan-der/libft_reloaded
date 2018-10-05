@@ -6,13 +6,13 @@
 /*   By: rvan-der <rvan-der@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/04 19:36:26 by rvan-der          #+#    #+#             */
-/*   Updated: 2018/10/04 19:40:27 by rvan-der         ###   ########.fr       */
+/*   Updated: 2018/10/05 14:18:52 by rvan-der         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long			ft_strtoll(const char *restrict str, char **restrict endptr, \
+long long		ft_strtoll(const char *restrict str, char **restrict endptr, \
 							int base)
 {
 	intmax_t	result;
